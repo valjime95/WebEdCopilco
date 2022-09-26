@@ -1,0 +1,373 @@
+@charset "UTF-8";
+/* CSS Document */
+
+:root{
+	--colorPrincipal:#1077F7;
+	--colorOscuro:#282828;
+	--colorBrillo:#EEEEEE;
+	--colorContraste:#7f7f7f;
+}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+	
+}
+::-moz-selection{
+	background-color: var(--colorPrincipal);
+	color:var(--colorOscuro);
+	text-shadow:1px 1px 1px white;
+}
+::selection{
+	background-color:var(--colorOscuro) ;
+	color:var(--colorPrincipal);
+	text-shadow:1px 1px 1px white;
+}
+body,html{
+	font-size:16px;
+	margin:auto;
+	min-width: 320px;
+	max-width: 3000px;
+	cursor: url(../img/cursor.cur),auto;
+}
+em{
+	color:var(--colorPrincipal);
+	font-style: normal;
+	font-weight: bold;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
+header,main,section,footer{
+	padding: 1.875em;
+}
+header{
+	background-color:var(--colorOscuro);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position:fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	z-index: 2;
+}
+main{
+	margin-top: 3em;
+	z-index:1;
+}
+#logo{
+	width: 3em;
+}
+nav{
+	background-color: var(--colorPrincipal);
+	position: fixed;
+	padding-top: 3em;
+	top:0;
+	right: -50%;
+	width: 50%;
+	height: 100vh;
+	z-index: 5;
+}
+#menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+#menu li{
+	margin: 0.5em; 
+}
+.btn-nav{
+	color:white;
+}
+#redes{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+#redes li{
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+#pasos h2{
+	color:var(--colorOscuro);
+}
+#pasos h2::first-letter{
+	color:white;
+	font-size:2em;
+	float:left; 
+	margin-right: 0.5em;
+}
+#galeria{
+	background-color:var(--colorOscuro);
+	width:100%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+#miniaturas{
+	display: flex;
+	flex-wrap: wrap;
+}
+#miniaturas li{
+	flex:1 15%;
+	margin: 1em;
+}
+form{
+	padding: 1em;
+	-webkit-box-shadow: 3px 3px 3px 3px var(--colorContraste);
+	box-shadow: 3px 3px 3px 3px var(--colorContraste);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+label{
+	flex-basis:100%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	font-size: 1.15em;
+}
+
+
+.caja{
+	background-color:var(--colorBrillo);
+	margin: 0;
+	margin-bottom: 0.5em;
+	padding: 0.3em 0.5em;
+	width: 90%;
+	border:0;
+	outline:0;
+	font-size:1.15em;
+	flex-grow: 1;
+
+}
+.cajaIcon{
+	background-color:var(--colorBrillo);
+	margin: 0;
+	margin-bottom: 0.5em;
+	padding: 0.3em 0.5em 0.25em 0em;
+	width: 10%;
+	text-align: right;
+	
+}
+.casilla{
+	-webkit-appearance:none;
+	appearance:none;
+	outline: 0;
+	align-self: flex-start;
+	margin-right: 1em;
+	margin-top: 1em;
+
+}
+.legalCall{
+	flex:1 80%;
+}
+form a{
+	color:var(--colorPrincipal)!important;
+}
+.sinVineta{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.fondoPrincipal{
+	color:white;
+	background-color:var(--colorPrincipal);
+}
+.fondoClaro{
+	color:var(--colorContraste);
+	background-color:var(--colorBrillo);
+}
+.fondoOscuro{
+	color:white;
+	background-color:var(--colorOscuro);
+}
+.btn{
+	text-decoration: none;
+	background-color:var(--colorPrincipal);
+	color:white;
+	padding: 1em;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:1.15rem;
+	margin-top: 0.5em;
+	width: 100%;
+	outline: 0;
+}
+.btn:active{
+	background-color:var(--colorOscuro);
+}
+#socialIcons{
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer a{
+	margin: 0.5em;
+	display: inline-block;
+}
+#copyright{
+	text-align: center;
+}
+#abrir,#cerrar{
+		display:block;
+	}
+
+
+@media screen and (min-width:768px){
+	#abrir,#cerrar{
+	display:none;
+	}
+	nav{
+	background-color: transparent;
+	position:static;
+	padding-top: 0;
+	width: auto;
+	height: auto;
+	}
+	main{
+		margin-top: 7em;
+	}
+	h1{
+		font-size:2.5em;
+	}
+	.btn-nav{
+		color: var(--colorPrincipal);
+	}
+	.btn-nav:hover{
+		color:white;
+		-webkit-transition: color 0.25s linear;
+		-moz-transition: color 0.25s linear;
+		-o-transition: color 0.25s linear;
+		-ms-transition: color 0.25s linear;
+		transition: color 0.25s linear;
+	}
+	#menu{
+	display: flex;
+	flex-direction: row;
+
+}
+	#pasos ol{
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#pasos ol li{
+		flex-basis:50%;
+	}
+	header{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	}
+	#logo{
+		width: 10em;
+	
+	}
+	#menu{
+		flex-basis: 100%;
+		display: flex;
+	}
+	
+}
+@media screen and (min-width:800px){
+header,main,#callAction,#pasos,#testimonio,#callActionDos,footer{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		-webkit-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;
+	}
+}
+@media screen and (min-width:1024px){
+	header{
+	justify-content: space-between;
+	flex-direction: row;
+	}
+	#logo{
+		width: 10em;
+	
+	}
+	#menu{
+		flex-basis: auto;
+	}
+	
+	#pasos ol{
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#pasos ol li{
+		flex-basis:30%;
+		flex-grow:1;
+	}
+	main{
+		display:flex;
+		align-items: flex-start;
+	}
+	#callAction,#testimonio{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#callAction img,#testimonio img{
+		margin-right: 1.875em;
+		margin-left: 1.875em;
+		flex-basis: 40%;
+		
+	}
+	#testimonio img{
+		order:1;
+	}
+	.textImg{
+		flex-basis: 60%;
+	}
+	footer{
+		display:flex;
+		justify-content: space-between;
+	}
+	#socialIcons{
+		order:1;
+	}
+	header,main,#callAction,#pasos,#testimonio,#callActionDos,footer{
+		width: 80%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	#callAction,#callActionDos,#pasos,#testimonio{
+		padding-top: 10em;
+		padding-bottom: 10em;
+	}
+	#callActionDos{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#callActionDos a{
+		width: 33.3333%;
+	}
+	
+	
+}
+@media screen and (min-width:1440px){
+	header,main,#callAction,#pasos,#testimonio,#callActionDos,footer{
+		width: 60%;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+}

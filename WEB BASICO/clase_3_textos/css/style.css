@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+body,html{
+	font-size: 16px;
+}
+@font-face{
+	font-family: "Chalk";
+	src: url(../fonts/Chalkduster/Chalkduster.eot) format("eot"),
+		 url(../fonts/Chalkduster/Chalkduster.woff) format("woff"),
+		 url(../fonts/Chalkduster/Chalkduster.ttf) format("true-type");
+}
+h1{
+	font-family: 'EB Garamond', serif;
+	
+	font-variant: small-caps;
+}
+p{
+	text-indent: 5em;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style: none;
+}
+p::first-letter{
+	font-size:5em;
+}
+#lista li{
+	font-size: 2rem;
+	font-style:oblique;
+	font-weight: bold;
+	font-family: "Chalk",sans-serif;
+}
+
+em{
+	font-style: normal;
+	font-weight: bolder;
+}
+
+strong{
+	font-weight: normal;
+	font-style: italic;
+}

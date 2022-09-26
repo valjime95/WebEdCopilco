@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+#galeria{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	background-color: red;
+	
+}
+img{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+#miniaturas li{
+	cursor: pointer;
+	margin: 1em;
+	flex:1 20%;
+}
+#miniaturas{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}

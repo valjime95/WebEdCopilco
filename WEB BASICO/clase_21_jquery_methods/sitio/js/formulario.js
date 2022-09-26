@@ -1,0 +1,52 @@
+// JavaScript Document
+$(document).ready(function(){
+	'use strict';
+	$('[type="text"]').focusin(function(){
+		$(this).css({
+			'background-color':'#7f7f7f'
+		});
+		$('.flaticon-user').css({
+			'background-color':'#7f7f7f'
+		});
+	});
+	$('[type="text"]').focusout(function(){
+		$(this).css({
+			'background-color':'#EEEEEE'
+		});
+		$('.flaticon-user').css({
+			'background-color':'#EEEEEE'
+		});
+	});
+	$('[type="email"]').focusin(function(){
+		$(this).css({
+			'background-color':'#7f7f7f'
+		});
+		$('.flaticon-mail').css({
+			'background-color':'#7f7f7f'
+		});
+	});
+	$('[type="email"]').focusout(function(){
+		$(this).css({
+			'background-color':'#EEEEEE'
+		});
+		$('.flaticon-mail').css({
+			'background-color':'#EEEEEE'
+		});
+	});
+	$('[type="tel"]').focusin(function(){
+		$(this).css({
+			'background-color':'#7f7f7f'
+		});
+		$('.flaticon-whatsapp').css({
+			'background-color':'#7f7f7f'
+		});
+	});
+	$('[type="tel"]').focusout(function(){
+		$(this).css({
+			'background-color':'#EEEEEE'
+		});
+		$('.flaticon-whatsapp').css({
+			'background-color':'#EEEEEE'
+		});
+	});
+});

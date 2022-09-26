@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+main,#wrap,#wrapReverse{
+	display:flex;
+	border:0.15em solid red;
+	width: 50%;
+	height: 10em;
+	flex-direction:column;
+}
+.hijo{
+	border:1px solid blue;
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+</head>
+
+<body>
+<section id="formulario">
+	<form action="10_formulario_mail.php" method="post">
+		<input type="text" placeholder="Nombre" name="nombre">
+		<input type="email" placeholder="E-Mail" name="mail">
+		<input type="tel" placeholder="Teléfono" name="tel">
+		<input type="radio" name="sexo" id="hombre" value="hombre">
+		<label for="hombre">Hombre</label>
+		<input type="radio" name="sexo" id="mujer" value="mujer">
+		<label for="mujer">Mujer</label>
+		<label>Ciudad</label>
+		<select name="ciudad">
+			<option value="cdmx">Cdmx</option>
+			<option value="gdl">GDL</option>
+			<option value="mty">MTY</option>
+		</select>
+		<label>¿Por cuál medio te enteraste de nosotros?</label>
+		<input type="checkbox" name="medio[]" value="facebook" id="fb">
+		<label for="fb">Facebook</label>
+		<input type="checkbox" name="medio[]" value="mail" id="mail">
+		<label for="mail">E-mail</label>
+		<input type="checkbox" name="medio[]" value="volante" id="volante">
+		<label for="volante">Volante</label>
+		<input type="checkbox" name="medio[]" value="radio" id="radio">
+		<label for="radio">Radio</label>
+		<textarea name="mensaje"></textarea>
+		<button>Enviar</button>
+	</form>	
+</section>
+</body>
+</html>

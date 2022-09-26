@@ -1,0 +1,116 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/03/2019 22:41
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-trophy:before { content: "\f100"; }
+.flaticon-fast-food:before { content: "\f101"; }
+.flaticon-island:before { content: "\f102"; }
+.flaticon-biceps:before { content: "\f103"; }
+.flaticon-plant:before { content: "\f104"; }
+.flaticon-sunbed:before { content: "\f105"; }
+.flaticon-home:before { content: "\f106"; }
+.flaticon-bed:before { content: "\f107"; }
+.flaticon-medal:before { content: "\f108"; }
+.flaticon-money:before { content: "\f109"; }
+.flaticon-donation:before { content: "\f10a"; }
+.flaticon-bird:before { content: "\f10b"; }
+.flaticon-gift-box:before { content: "\f10c"; }
+.flaticon-cat:before { content: "\f10d"; }
+.flaticon-facebook-logo-button:before { content: "\f10e"; }
+.flaticon-instagram-logo:before { content: "\f10f"; }
+.flaticon-twitter-logo-button:before { content: "\f110"; }
+.flaticon-linkedin:before { content: "\f111"; }
+.flaticon-google-plus-logo-button:before { content: "\f112"; }
+.flaticon-brand:before { content: "\f113"; }
+.flaticon-menu:before { content: "\f114"; }
+.flaticon-drop-down-round-button:before { content: "\f115"; }
+.flaticon-error:before { content: "\f116"; }
+.flaticon-radio-on-button:before { content: "\f117"; }
+.flaticon-success:before { content: "\f118"; }
+.flaticon-phone-symbol-of-an-auricular-inside-a-circle:before { content: "\f119"; }
+.flaticon-circular-shape-silhouette:before { content: "\f11a"; }
+.flaticon-circle-shape-outline:before { content: "\f11b"; }
+.flaticon-pinterest-logo:before { content: "\f11c"; }
+.flaticon-chevron-sign-to-right:before { content: "\f11d"; }
+.flaticon-upload:before { content: "\f11e"; }
+.flaticon-download:before { content: "\f11f"; }
+.flaticon-down:before { content: "\f120"; }
+.flaticon-arrow:before { content: "\f121"; }
+.flaticon-email:before { content: "\f122"; }
+.flaticon-user:before { content: "\f123"; }
+.flaticon-mail:before { content: "\f124"; }
+.flaticon-whatsapp:before { content: "\f125"; }
+    
+    $font-Flaticon-trophy: "\f100";
+    $font-Flaticon-fast-food: "\f101";
+    $font-Flaticon-island: "\f102";
+    $font-Flaticon-biceps: "\f103";
+    $font-Flaticon-plant: "\f104";
+    $font-Flaticon-sunbed: "\f105";
+    $font-Flaticon-home: "\f106";
+    $font-Flaticon-bed: "\f107";
+    $font-Flaticon-medal: "\f108";
+    $font-Flaticon-money: "\f109";
+    $font-Flaticon-donation: "\f10a";
+    $font-Flaticon-bird: "\f10b";
+    $font-Flaticon-gift-box: "\f10c";
+    $font-Flaticon-cat: "\f10d";
+    $font-Flaticon-facebook-logo-button: "\f10e";
+    $font-Flaticon-instagram-logo: "\f10f";
+    $font-Flaticon-twitter-logo-button: "\f110";
+    $font-Flaticon-linkedin: "\f111";
+    $font-Flaticon-google-plus-logo-button: "\f112";
+    $font-Flaticon-brand: "\f113";
+    $font-Flaticon-menu: "\f114";
+    $font-Flaticon-drop-down-round-button: "\f115";
+    $font-Flaticon-error: "\f116";
+    $font-Flaticon-radio-on-button: "\f117";
+    $font-Flaticon-success: "\f118";
+    $font-Flaticon-phone-symbol-of-an-auricular-inside-a-circle: "\f119";
+    $font-Flaticon-circular-shape-silhouette: "\f11a";
+    $font-Flaticon-circle-shape-outline: "\f11b";
+    $font-Flaticon-pinterest-logo: "\f11c";
+    $font-Flaticon-chevron-sign-to-right: "\f11d";
+    $font-Flaticon-upload: "\f11e";
+    $font-Flaticon-download: "\f11f";
+    $font-Flaticon-down: "\f120";
+    $font-Flaticon-arrow: "\f121";
+    $font-Flaticon-email: "\f122";
+    $font-Flaticon-user: "\f123";
+    $font-Flaticon-mail: "\f124";
+    $font-Flaticon-whatsapp: "\f125";

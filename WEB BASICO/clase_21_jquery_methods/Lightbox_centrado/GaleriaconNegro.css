@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#galeria{
+	width: 50%;
+}
+
+#imagen{
+	width: 100%;
+	height: 100vh;
+	padding: 3em;
+	background-color: black;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;	
+		-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+#imagen img{
+	width: 30%;
+	margin: auto;
+}
+#imagen .flex{
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 110vh;
+}
+#cerrar{
+	align-self: center;
+}
+.flex{
+	display: flex;
+}
+
+img{
+	width: 100%;
+	
+}
+
+#miniaturas{
+	width: 100%;
+	list-style: none;
+	cursor: pointer;
+}

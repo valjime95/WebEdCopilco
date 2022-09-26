@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0;
+}
+header{
+	background-color:gray;
+	width: calc(100% - 2em);
+	padding: 1em;
+	text-align: right;
+}
+nav{
+	width: calc(30% - 2em);
+	background-color:darkgray;
+	height: 100vh;
+	position:fixed;
+	top:0%;
+	right:-30%;
+	text-align: center;
+	padding: 1em;
+}

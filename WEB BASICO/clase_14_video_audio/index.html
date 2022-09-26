@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header></header>
+<main></main>
+<section id="video">
+	<video controls muted loop poster="video/poster.png" class="tamVideo">
+		<source src="video/comercial.mp4" type="video/mp4">
+		<source src="video/comercial.webm" type="video/webm">
+		<source src="video/comercial.ogv" type="video/ogg">
+		<track kind="subtitles" srclang="en" src="video/en.vtt" label="English">
+		<track kind="subtitles" srclang="es" src="video/es.vtt" label="Español">
+		<p>Tu navegador no soporta el formato de video.</p>
+	</video>
+</section>
+<section id="audio">
+	<audio controls muted loop autoplay>
+		<source src="audio/horse.mp3" type="audio/mpeg">
+		<source src="audio/horse.ogg" type="audio/ogg">
+	</audio>	
+</section>
+<section id="youtube">
+	<iframe class="tamVideo" src="https://www.youtube.com/embed/ia7XOCDKslA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+</section>
+<section id="vimeo"></section>
+<section id="soundcloud"></section>
+<section id="maps"></section>
+<section id="sketchfab"></section>
+<footer></footer>
+</body>
+</html>

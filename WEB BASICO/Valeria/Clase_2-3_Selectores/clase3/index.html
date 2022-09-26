@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Clase 3</title>
+	<style type="text/css">
+	/*selector universal*/
+	*{
+		color: red;
+	}
+
+/*	h1, h2, h3 {
+	  color: #8A8E27;
+	  font-weight: normal;
+	  font-family: Arial;
+	}*/
+/*	h2 {
+	  color: #8A8E27;
+	  font-weight: normal;
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	h3 {
+	  color: #8A8E27;
+	  font-weight: normal;
+	  font-family: Arial, Helvetica, sans-serif;
+	}*/
+
+	h1{
+		font-size: 10px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 30px;
+		word-spacing: 10cm;
+	}
+
+	p span {
+		background-color: yellow;
+	}
+	h1 span em{
+		background-color: pink;
+	}
+	/* p .class todos los elementos de clase .class que esten dentro de p */
+	p .lorem{
+		background-color: yellow;
+			}
+
+	div p {
+		color: blue;
+	}	
+	h1 + h2{
+		font-size: 40px;
+	}
+
+	a[href*="wikipedia"]{
+		color: black;
+	}
+
+	ol li:first-child{
+		background-color: black;
+		color: yellow;
+	}
+
+	#letraCapital::first-letter{
+		color: green;
+	}
+
+	#letraCapital{
+		line-height: 100px
+	}
+
+
+	</style>
+</head>
+<body>
+
+	<h1>HEADER 1</h1>
+	<h2 id="letraCapital">HEADER 2</h2>
+	<h3>HEADER 3</h3>
+
+	<ol>
+		<li>item 1</li>
+		<li>item 2</li>
+		<li>item 3</li>
+	</ol>
+
+	<a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">wikis</a> <br>
+
+	<a href="https://es.wikipedia.org/wiki/All_I_Want_for_Christmas_Is_You">christmas</a> <br>
+
+	<a href="https://drive.google.com/drive/my-drive">my drive</a> <br>
+
+	<h2>OTRO HEADER 2</h2>
+
+	<p >Lorem ipsum dolor sit amet consectetur, <span class = "lorem">adipisicing</span> elit. Dolore dignissimos quidem, ea. Blanditiis vero maiores laboriosam? Alias facilis facere fuga quas officia, minus modi. Pariatur repellat deserunt ipsa adipisci eligendi.</p>
+	<p>Ipsam blanditiis molestias officiis porro dolore dolores magni sint ipsa eius velit, officia non ullam ratione eligendi excepturi accusantium facere possimus cumque dolor, quos eum corrupti maiores. Eum, at, perferendis.</p>
+	<p>Nihil cum dolor delectus ad, ipsam, nam itaque. Ipsum ratione quis non officia cumque incidunt cupiditate eius magnam voluptatibus, ipsam et quod mollitia earum iusto rerum recusandae asperiores delectus quaerat!</p>
+
+	<h1 class = "lorem">Lorem ipsum dolor sit amet consectetur <span>adipisicing <em>Valeria</em> </span>, elit. Ipsa unde nulla iste doloribus commodi praesentium placeat ullam sequi voluptatibus dolor, sint dicta, earum odio debitis doloremque explicabo perferendis corrupti quos.</h1>
+	<h1>Eligendi, eius! Et, ipsam. Excepturi est nam nostrum provident, ullam voluptatum eum eveniet. Quos enim aperiam repellendus possimus reiciendis tempora, doloribus atque molestias aspernatur dolores, quasi nesciunt voluptas, a, dolorum.</h1>
+	<h1>Aut doloribus, perspiciatis suscipit magnam cumque quae debitis facilis assumenda sit in, non exercitationem iste, fugit veniam esse corporis. Odit voluptatibus esse at, repellendus doloribus facere alias nobis hic est.</h1>
+
+	<h3 class = "lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus deleniti asperiores nesciunt temporibus numquam provident illo, eaque, aperiam repudiandae, earum quis eius a ratione quae veritatis. Autem iste, dicta vitae.</h3>
+	<h3>Harum veritatis maxime, laudantium distinctio iure eveniet temporibus repudiandae, reprehenderit vero molestias earum, vitae debitis animi eaque impedit aperiam possimus esse tenetur aliquid totam. Possimus illo nihil, distinctio optio culpa!</h3>
+	<h3>Libero, placeat quo, necessitatibus quibusdam perspiciatis asperiores? Nesciunt ratione, dolore laborum. Minima laborum magnam, voluptatibus temporibus voluptatum eveniet sunt suscipit expedita rerum ullam tenetur nesciunt consequatur iure ipsum eos ipsa?</h3>
+	<h3>Voluptates esse, ipsa commodi quod voluptatem inventore est enim aliquam? Cupiditate, optio eveniet. Placeat repudiandae sint numquam, vitae, temporibus at vel obcaecati eligendi quae ab, nostrum? Impedit doloremque maiores numquam.</h3>
+
+	<div>
+		<article>
+			<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Illum rerum animi tempore labore perferendis aliquam, voluptate, possimus a facere, excepturi in commodi nesciunt fuga quas ducimus aspernatur deserunt iure quis?</p>
+			<p>Perspiciatis possimus molestiae quam, sequi iste delectus consectetur. Earum iusto eius commodi illum illo ea consequuntur sed, dolorum enim porro corrupti est asperiores. Facilis, tempora molestias in totam nihil animi.</p>
+			<p>Dolores dolor, distinctio iste blanditiis ea laborum cupiditate? Eius, beatae, ipsum! Aspernatur nam, et fuga placeat exercitationem, recusandae. Fuga, corporis, explicabo? Molestiae, voluptas quis expedita quod deserunt voluptatem hic corrupti!</p>
+		</article>
+	</div>
+
+	<div>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, quod, rerum perferendis, repellendus amet, pariatur quos dolorum dolores minima similique sapiente consectetur quam excepturi minus itaque. Modi quod corporis eius.</p>
+	</div>
+
+	
+
+</body>
+</html>

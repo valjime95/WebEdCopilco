@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body,html{
+	font-size:16px;
+}
+#uno{
+	width: 40%;
+	height: 20em;
+	background-color:red;
+	float: left;
+}
+#dos{
+	width: 60%;
+	height: 10em;
+	background-color:yellow;
+	float: right;
+}
+#tres{
+	width: 20%;
+	height: 10em;
+	background-color:blue;
+	float: left;
+}
+#cuatro{
+	width: 40%;
+	height: 20em;
+	background-color:green;
+	float:right;
+}
+#cinco{
+	width: 60%;
+	height: 10em;
+	background-color:gray;
+	float: left;
+}
+
+
+

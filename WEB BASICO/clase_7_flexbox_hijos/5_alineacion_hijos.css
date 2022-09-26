@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+main{
+	display: flex;
+	border:1px solid red;
+	width: 50%;
+	height: 50vh;
+	flex-direction: column;
+}
+section{
+	border:1px solid blue;
+}
+#start{
+	align-self: flex-start;
+}
+#end{
+	align-self:flex-end;
+}
+#stretch{
+	align-self: stretch;
+}
+#center{
+	align-self:center;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+main{
+	display: flex;
+	border:1px solid red;
+	width: 50%;
+	height: 50vh;
+}
+section{
+	border: 1px solid blue;
+}
+#a{order:6;}
+#b{order:7}
+#c{order:4;}
+#d{order:9}
+#e{}
+#f{order:-5;}

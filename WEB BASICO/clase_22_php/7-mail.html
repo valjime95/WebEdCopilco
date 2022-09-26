@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+</head>
+
+<body>
+	<form action="7-mail.php" method="post">
+	<label>Nombre Completo:</label>
+	<input type="text" name="nombrecompleto" id="nombrecompleto">
+	<label>Género:</label>
+	<input type="radio" value="hombre" id="hombre" name="sexo">
+	<label for="hombre">Hombre</label>
+	<input type="radio" value="mujer" id="mujer" name="sexo">
+	<label for="mujer">Mujer</label>
+	<label>Ciudad:</label>
+		<select name="ciudad" id="ciudad">
+		<option value="MTY">MTY</option>
+		<option value="GDL">GDL</option>
+		<option value="CDMX">CDMX</option>
+		</select>
+		
+	<label>Pasatiempos</label>
+		<input type="checkbox" name="pasatiempos[]" id="nadar" value="nadar">
+		<label for="nadar">Nadar</label>
+		<input type="checkbox" name="pasatiempos[]" id="leer" value="leer">
+		<label for="leer">Leer</label>
+		<input type="checkbox" name="pasatiempos[]" id="escribir" value="escribir">
+		<label for="escribir">Escribir</label>
+		
+	<label>Telefono:</label>
+	<input type="tel" name="telefono" id="telefono">
+	<label>Email:</label>
+	<input type="email" name="email" id="email">
+	<label>Mensaje:</label>
+	<textarea name="mensaje" id="mensaje"></textarea>
+	
+	<button>Enviar</button>
+	
+	
+	
+	</form>
+</body>
+</html>

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body,html{
+	font-size:16px;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+#menu{}
+header{
+	background-color: #BABABA;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	z-index: 2;
+}
+main{
+	margin-top: 7em;
+}
+h1{
+	position:relative;
+	top:3em;
+	z-index: 1;
+}
+h2{
+	position: -webkit-sticky;
+	position: sticky;
+	top:5em;
+}
+#redes{}
+#redes li{}
+#redes li a{}
+#formulario{
+	width:11em;
+	height: auto;
+	background-color:gray;
+	position:fixed;
+	right: 3em;
+	bottom: 0;
+	padding: 1em;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+#izq{
+	height: 18em;
+	width: calc(40% - 2em);
+	background-color: aquamarine;
+	float: left;
+	padding: 1em;
+	margin: 1em;
+}
+#arriba{
+	height: 10em;
+	width: 60%;
+	background-color: blueviolet;
+	float: right;
+}
+#abajo{
+	height: 10em;
+	width: 60%;
+	background-color: coral;
+	float: right;
+
+}
+footer{
+	background-color:#262626;
+	clear: both;
+
+}

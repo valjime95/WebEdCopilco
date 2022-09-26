@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+/* *{
+	color:yellow;
+}*/
+a{
+	color: #4CD390 !important;
+}
+a{
+	color:red;
+}
+.vinculoDiferente{
+	color: crimson;
+}
+header{}
+nav{}
+#menu{}
+#redes li a{
+	color:yellow;
+}
+body,html{
+	
+}
+h1+p{
+	color: red;
+}
+#letraCapital::first-letter{
+	color:green;
+}
+ol li:first-child{
+	color:blue;
+}
+#redes[target="_blank"]{
+	color:black !important;
+}
+

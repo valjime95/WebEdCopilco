@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* CSS Document */
+
+:root{
+	--colorPrincipal:#1077F7;
+	--colorOscuro:#282828;
+	--colorBrillo:#EEEEEE;
+	--colorContraste:#7f7f7f;
+}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+}
+body,html{
+	font-size:16px;
+	margin:auto;
+	min-width: 320px;
+	max-width: 3000px;
+}
+em{
+	color:var(--colorPrincipal);
+	font-style: normal;
+	font-weight: bold;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
+header,main,section,footer{
+	padding: 1.875em;
+}
+header{
+	background-color:var(--colorOscuro);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+#logo{
+	width: 3em;
+}
+#menu{
+	display: flex;
+}
+#menu li{
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+#redes{
+	display:flex;
+	justify-content: center;
+}
+#redes li{
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+a{
+	color:white!important;
+	text-decoration: none;
+}
+#pasos h2{
+	color:var(--colorOscuro);
+}
+#pasos h2::first-letter{
+	color:white;
+	font-size:2em;
+	float:left; 
+	margin-right: 0.5em;
+}
+form{
+	padding: 1em;
+	-webkit-box-shadow: 3px 3px 3px 3px var(--colorContraste);
+	box-shadow: 3px 3px 3px 3px var(--colorContraste);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+label{
+	flex-basis:100%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	font-size: 1.15em;
+}
+#copyright{
+	text-align: center;
+}
+.caja{
+	background-color:var(--colorBrillo);
+	margin: 0;
+	margin-bottom: 0.5em;
+	padding: 0.3em 0.5em;
+	width: 70%;
+	border:0;
+	outline:0;
+	font-size:1.15em;
+	flex-grow: 1;
+}
+.cajaIcon{
+	background-color:var(--colorBrillo);
+	margin: 0;
+	margin-bottom: 0.5em;
+	padding: 0.3em 0.5em 0.25em 0em;
+	
+}
+.sinVineta{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.fondoPrincipal{
+	color:white;
+	background-color:var(--colorPrincipal);
+}
+.fondoClaro{
+	color:var(--colorContraste);
+	background-color:var(--colorBrillo);
+}
+.fondoOscuro{
+	color:white;
+	background-color:var(--colorOscuro);
+}
+.btn{
+	text-decoration: none;
+	background-color:var(--colorPrincipal);
+	color:white;
+	padding: 1em;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:1.15rem;
+	margin-top: 0.5em;
+	width: 100%;
+}
